@@ -1,3 +1,4 @@
 library(testthat)
+library(RTest)
 
-test_check("RTest", reporter = "progress")
+test_check("RTest")
